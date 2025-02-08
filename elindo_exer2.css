@@ -42,7 +42,50 @@ body {
   text-underline-offset: 7px;
 }
 
-.autobiography h2 {
+h2 {
   font-style: italic;
   font-weight: 100;
+}
+
+.titles {
+  color: #eae9fc;
+  background-color: #8da549;
+
+  display: block;
+  border-radius: 20px;
+  width: 250px;
+
+  font-weight: bolder;
+
+  justify-self: center;
+  text-align: center;
+}
+
+.skills {
+  color: #0c161e;
+  background-color: #6fa3e5;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skills div {
+  margin: 80px 10px 80px 10px;
+}
+
+.skills div img {
+  height: 150px;
+  width: 150px;
+}
+
+.skills div h3 {
+  text-align: center;
+  color: #eae9fc;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.skills div ul {
+  align-self: center;
 }
