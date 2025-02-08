@@ -1,3 +1,6 @@
+/* Joella Elindo | CMCSC 100 C4L | CSS FILE*/
+
+/* Adding custom font: https://www.w3schools.com/css/css3_fonts.asp */
 @font-face {
   font-family: SpaceGrotesk;
   src: url("./fonts/SpaceGrotesk-Regular.ttf");
@@ -21,7 +24,7 @@ body {
 	height: 500px;
 }
 
-.autobiography > img {
+.autobiography > img { /* Child selector */
   height: 500px;
 }
 
@@ -37,7 +40,7 @@ body {
   margin: 80px;
 }
 
-.autobiography h1 {
+.autobiography h1 { /* Descendant selector */
   text-decoration: underline;
   text-underline-offset: 7px;
 }
@@ -94,6 +97,7 @@ h2 {
   color: #0c161e;;
 }
 
+ /* Changes colors when hovered */
 .skills div a:hover {
   color:#0038a8;
 }
@@ -129,6 +133,7 @@ h2 {
   height: 300px;
 }
 
+ /* Becomes bigger when hovered */
 .projects img:hover {
   transform: scale(1.12);
 }
@@ -165,6 +170,7 @@ h2 {
   font-weight: bold;
 }
 
+ /* Becomes bigger when hovered */
 .footer a:hover {
   font-size: large;
 }
