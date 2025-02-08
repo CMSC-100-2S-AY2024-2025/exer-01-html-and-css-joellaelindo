@@ -89,3 +89,34 @@ h2 {
 .skills div ul {
   align-self: center;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects div {
+  color: #eae9fc;
+  background-color: #0038a8;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  width: 45%;
+  height: 300px;
+  margin: 50px 50px;
+}
+
+.projects h3 {
+  font-size: 30px;
+}
+
+.projects p {
+  margin: 10px 40px;
+}
+
+.projects img{
+  margin: 50px 50px;
+  height: 300px;
+}
