@@ -90,6 +90,14 @@ h2 {
   align-self: center;
 }
 
+.skills div a {
+  color: #0c161e;;
+}
+
+.skills div a:hover {
+  color:#0038a8;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -119,6 +127,10 @@ h2 {
 .projects img{
   margin: 50px 50px;
   height: 300px;
+}
+
+.projects img:hover {
+  transform: scale(1.12);
 }
 
 .footer {
@@ -151,4 +163,8 @@ h2 {
   margin: 3px 3px 3px 0px;
   color: #0038a8;
   font-weight: bold;
+}
+
+.footer a:hover {
+  font-size: large;
 }
