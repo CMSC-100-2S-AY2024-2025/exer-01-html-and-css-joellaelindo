@@ -120,3 +120,35 @@ h2 {
   margin: 50px 50px;
   height: 300px;
 }
+
+.footer {
+  color: #0c161e;
+  background-color: #8da549;
+
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.footer img {
+  height: 80px;
+  margin: 20px;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+
+  height: 80px;
+  margin: 20px;
+}
+
+.footer p {
+  margin: 3px 3px 3px 0px;
+}
+
+.footer a {
+  margin: 3px 3px 3px 0px;
+  color: #0038a8;
+  font-weight: bold;
+}
